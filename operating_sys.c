@@ -15,7 +15,7 @@ void setDefaultValues(){
 
 int main(int argc, char** argv){
 
-
+    printf("%d", argc);
     setDefaultValues();
 
     int i;
@@ -50,12 +50,10 @@ int main(int argc, char** argv){
         {
             if (i < argc)
             {
-            printf("\ncreating partition [%s], size=%d", partitionName, partSize);
-                /* code */
+                printf("\ncreating partition [%s], size=%d", partitionName, partSize);
             }
             
         }
-        
     }
 
 
